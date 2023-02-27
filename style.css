@@ -1,0 +1,242 @@
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: fit-content;
+    margin: auto;
+    padding: auto
+}
+
+.logoHeader{
+    width:450px;
+    height: 200px;
+    background-color: #F7F5EB;
+    text-align: center;
+    margin: auto;
+    border-radius: 90px;
+}
+.logo{
+    width: 200px;
+    margin-top: 20px;
+}
+
+.logoTitle{
+    font-family: 'Cookie', cursive;
+    color:#EAC7C7;
+    font-size: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.navbar{
+    margin:25px;
+    text-align: center;
+}
+/* hazır kod */
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color:#f6d6c2;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Cookie', cursive;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-family: 'Cookie', cursive;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    font-family: 'Cookie', cursive;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+    font-family: 'Cookie', cursive;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /* hazır kod son */
+
+  .row {
+    position: relative;
+    background-image: url(img/home-pic.jpg);
+    background-size:250px;
+    background-repeat: no-repeat;
+    border-radius: 100px 150px 5px;
+    max-width: 820px;
+    height: 369px;
+    margin: 20px;
+    font-family: 'Indie Flower', cursive;
+    text-align: right;
+  
+  }
+
+  .quote{
+    position: relative;
+    background-color: #A0C3D2;
+    color: #FFFFFF;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 30px 150px 60px;
+    width: 820px;
+  }
+
+  .contentTitle{
+    /* yazılar alt alta gelsin  */
+    font-family: 'Stalemate', cursive;
+    font-size: 35px;
+    padding:0px;
+    text-align: center;
+    margin:auto 0;
+  }
+
+  .contentTitle2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Stalemate', cursive;
+    font-weight: bolder;
+    margin-top:15px;
+    margin:auto 0;
+  }
+
+  .contentTitle3{
+    margin: auto 0;
+    padding: 0px;
+    float: right;
+    font-size: 12px;
+  }   
+
+  .quotePlanner{
+    position: relative;
+    background-color: #EAC7C7;
+    color: #FFFFFF;
+    margin: 20px;
+    padding: 3px;
+    border-radius: 150px 1px 150px 200px;
+    width: 410px; 
+    font-family: 'Indie Flower', cursive;   
+    text-align: center;
+  }
+
+  /* Mommy Page */
+
+  .mommyContent{
+    text-align: left;
+    position: relative;
+    /* background-image: url(img/home-pic.jpg);
+    background-size:250px;
+    background-repeat: no-repeat; */
+    border-radius: 100px 150px 5px;
+    max-width: 820px;
+    height: 76px;
+    margin: 20px;
+    font-family: 'Indie Flower', cursive;
+    text-align: right;
+  }
+
+  .rowList{
+    max-width: 820px;
+    height: 318px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    display: -webkit-box;
+    margin: 15px;
+  }
+
+  .containerList{
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      max-width: fit-content;
+      margin: auto;
+      padding: auto
+  }
+
+  .rowMom{
+    position: relative;
+    background-image: url(img/mommy-pic.jpg);
+    background-size:200px;
+    background-repeat: no-repeat;
+    border-radius: 100px 150px 5px;
+    max-width: 820px;
+    height: 300px;
+    margin: 20px;
+    font-family: 'Indie Flower', cursive;
+    text-align: left;
+    background-position-x: 50px;
+    background-position-y: 2px;
+  }
+
+.quoteMom{
+    position: relative;
+    background-color: #EAC7C7;
+    color: #FFFFFF;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 30px 150px 60px;
+    width: 820px; 
+}
+
+.h1Mom{
+  color:#A0C3D2;
+}
+
+/* Daddy piece */
+
+.rowDad{
+  position: relative;
+  background-image: url(img/daddy-pic.jpg);
+  background-size:250px;
+  background-repeat: no-repeat;
+  border-radius: 100px 150px 5px;
+  max-width: 820px;
+  height: 300px;
+  margin: 20px;
+  font-family: 'Indie Flower', cursive;
+  text-align: left;
+  background-position-x: 50px;
+  background-position-y: 2px;
+  
+}
+
+.quoteDad{
+    position: relative;
+    background-color: #EAE0DA;
+    color: #638692;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 30px 150px 60px;
+    width: 820px;
+    
+}
+
+.rowListDad{
+    text-align-last: start;
+    font-family: 'Indie Flower', cursive;
+    text-align: right;
+    display: flex;
+    margin: 15px;
+    
+}
